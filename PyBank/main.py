@@ -15,21 +15,31 @@ with open (path , 'r') as work1_csv_file:
     next(csv_reader)
 
 
-    for row in csv_reader:
+#     for row in csv_reader:
     
-         x = int(row[1])
+#          x = int(row[1])
 
-         net_profit = x + net_profit
-         sum_rows = sum_rows + 1
-         average = net_profit/sum_rows
+#          net_profit = x + net_profit
+#          sum_rows = sum_rows + 1
+#          average = net_profit/sum_rows
+        
          
          
-#Net Total Profit
-print(net_profit) 
-#Total number of months
-print(sum_rows)
-#Average
-print(average)
+# #Net Total Profit
+# print(net_profit) 
+# #Total number of months
+# print(sum_rows)
+# #Average
+# print(average)
+
+    for row in csv_reader:
+        #print(row)
+        #print(row[0])
+        print(range(row[1]))
+
+
+
+    
 
 
     #     #print(', '.join(row))
