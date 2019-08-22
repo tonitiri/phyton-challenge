@@ -44,8 +44,7 @@ with open(filepath) as csv_file:
             if x > greatest_current_gain:
                 greatest_current_gain = x
 
-    # print(greatest_current_loss)
-    # print(greatest_current_gain)
+        # print(greatest_current_loss)
 
     
 
@@ -58,26 +57,5 @@ print("Total number of months: ",count)
 #Average Profit
 print("Average Profit: $",(sum/count))
 print("Average Change: $",sum1/len(net_change))
-print("Greatest Increase in Profits: $",greatest_current_gain)
-print("Greatest Decrease in Profits: $",greatest_current_loss) 
-
-        
-
-
-
-    
-        
-        
-
-
-
-
-
-
-        
-
-        
-          
-
-        
-
+# print("Greatest Increase in Profits: $",greatest_current_gain)
+# print("Greatest Decrease in Profits: $",greatest_current_loss)
